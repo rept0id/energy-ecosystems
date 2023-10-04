@@ -21,7 +21,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file from the build stage into this new stage
-COPY --from=build /app/build/libs/lets-java-backend-spring-boot-0.0.1-SNAPSHOT.jar ./app.jar
+COPY --from=build /app/build/libs/energy-ecosystems-0.0.1-SNAPSHOT.jar ./app.jar
 
 # Specify the command to run your Spring Boot application
 CMD ["java", "-jar", "app.jar"]

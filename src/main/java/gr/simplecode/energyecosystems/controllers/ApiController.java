@@ -1,12 +1,13 @@
-package gr.simplecode.energyecosystems;
-
-package gr.simplecode.energyecosystems;
+package gr.simplecode.energyecosystems.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
+import gr.simplecode.energyecosystems.models.*;
+import gr.simplecode.energyecosystems.services.*;
 
 @RestController
 @RequestMapping("/api")

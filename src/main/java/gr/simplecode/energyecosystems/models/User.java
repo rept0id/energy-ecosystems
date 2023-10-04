@@ -1,4 +1,4 @@
-package gr.simplecode.energyecosystems;
+package gr.simplecode.energyecosystems.models;
 
 import javax.persistence.*;
 
